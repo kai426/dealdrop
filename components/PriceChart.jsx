@@ -3,7 +3,7 @@
 import { getPriceHistory } from '@/app/actions'
 import { Loader2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { CartesianGrid, LineChart, ResponsiveContainer, Tooltip } from 'recharts'
+import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 
 const PriceChart = ({ productId }) => {
     const [data, setData] = useState([])
